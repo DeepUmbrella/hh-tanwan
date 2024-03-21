@@ -1,0 +1,652 @@
+.hd-fl {
+  float: left;
+}
+.hd-fr {
+  float: right;
+}
+.hd-main {
+  z-index: 99;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.hd-top {
+  height: 40px;
+  background: #282828;
+  font-family: Microsoft YaHei;
+  z-index: 99;
+  position: relative;
+}
+.hd-left {
+  height: 40px;
+  line-height: 40px;
+}
+.hd-left a {
+  float: left;
+  color: #b0b0b0;
+  font-size: 12px;
+  background: url(/platform/2018/img/hd-ico.png) no-repeat;
+  padding-left: 20px;
+  margin-right: 20px;
+  -webkit-transition: all 0.3s;
+  -mz-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.hd-left a:hover,
+.hd-dl-q a:hover {
+  color: #cecece;
+  -webkit-transition: all 0.3s;
+  -mz-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.hd-left a.hd-top-index {
+  background-position: 0px 12px;
+}
+.hd-left a.hd-top-keep {
+  background-position: 0px -122px;
+}
+.hd-left a.hd-top-box {
+  background-position: 0px -56px;
+}
+.hd-left a:hover.hd-top-index {
+  background-position: 0px -22px;
+}
+.hd-left a:hover.hd-top-keep {
+  background-position: 0px -158px;
+}
+.hd-left a:hover.hd-top-box {
+  background-position: 0px -87px;
+}
+.hd-all-game {
+  width: 88px;
+  height: 40px;
+}
+.hd-all-game .hd-all-game-on {
+  width: 88px;
+  height: 40px;
+  background: #353535 url(/platform/2018/img/hd-ico.png) 65px -201px no-repeat;
+  font-size: 12px;
+  color: #b0b0b0;
+  float: left;
+  text-indent: 11px;
+  line-height: 40px;
+}
+.hd-all-game:hover .hd-all-game-on {
+  color: #333333;
+  background: #fde701 url(/platform/2018/img/all-game-on-up.png) 69px 17px
+    no-repeat;
+}
+.hd-all-game:hover .hd-all-game-txt {
+  display: block;
+}
+.hd-all-game-txt {
+  height: 242px;
+  width: 1198px;
+  background: #fff;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  display: none;
+  z-index: 9999;
+  border: 1px solid #f2f2f2;
+}
+.hd-all-game-js {
+  width: 509px;
+  height: 242px;
+  display: none;
+  overflow: hidden;
+}
+.hd-all-game-js .hd-game_txt {
+  position: relative;
+  width: 509px;
+  height: 242px;
+  display: block;
+}
+.hd-all-game-js .hd-game_txt p {
+  color: #666;
+  font-size: 12px;
+  width: 276px;
+  position: absolute;
+  left: 22px;
+  top: 106px;
+  line-height: 25px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.hd-all-game-ct {
+  width: 440px;
+  padding-top: 27px;
+  height: 215px;
+  margin: 0 20px;
+}
+.hd-all-game-tit {
+  height: 16px;
+  width: 100%;
+  line-height: 16px;
+}
+.hd-all-game-tit .hd-tit-h3 {
+  height: 16px;
+  line-height: 16px;
+  border-left: 4px solid #fde701;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  text-indent: 10px;
+}
+.hd-all-game-tit a {
+  float: right;
+  color: #888888;
+  font-size: 12px;
+}
+.hd-all-game-tit a i {
+  font-family: 宋体;
+}
+.hd-all_games_nav {
+  margin-top: 14px;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+}
+.hd-all_games_nav li {
+  float: left;
+  width: 33%;
+  margin-top: 20px;
+  overflow: hidden;
+  height: 14px;
+  line-height: 16px;
+}
+.hd-all_games_nav li a {
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+.hd-all_games_nav li a:hover,
+.hd-all-game-rt a:hover,
+.hd-all-game-tit a:hover {
+  color: #fe5600;
+}
+.hd-ll_games_nav li em {
+  float: left;
+}
+.hd-all_games_nav li i,
+.hd-gameTs li span {
+  float: left;
+  width: 15px;
+  height: 16px;
+  margin-left: 6px;
+  font-size: 12px;
+  background: url(/platform/2018/img/jb-ico.jpg) no-repeat;
+}
+.hd-all_games_nav li i.hd-s_h,
+.hd-gameTs li span.hd-s_h {
+  background-position: 0px 3px;
+}
+.hd-all_games_nav li i.hd-s_n,
+.hd-gameTs li span.hd-s_n {
+  background-position: -18px 3px;
+}
+.hd-gameTs {
+  float: right;
+  margin-right: 10px;
+  color: #666;
+}
+.hd-gameTs li {
+  float: left;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.hd-all-game-rt {
+  height: 242px;
+  width: 208px;
+  border-left: 1px solid #eee;
+}
+.hd-all-game-rt p {
+  color: #333333;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  padding-top: 23px;
+}
+.hd-all-game-rt a {
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: 77px;
+  margin-top: 14px;
+  line-height: 135px;
+  color: #666;
+}
+.hd-all-game-rt a.hd-game-box {
+  background: url(/platform/2018/img/game-box.jpg) top center no-repeat;
+}
+.hd-all-game-rt a.hd-tanwan-app {
+  background: url(/platform/2018/img/tanwan-app.png) top center no-repeat;
+}
+.hd-all-game-rt a.hd-game-lp {
+  background: url(/platform/2018/img/game-lp.jpg) top center no-repeat;
+}
+.hd-dl-q {
+  height: 40px;
+  line-height: 40px;
+  color: #454545;
+  margin-right: 15px;
+}
+.hd-dl-q a {
+  color: #b0b0b0;
+  font-size: 12px;
+  margin: 0 6px;
+  float: right;
+}
+.hd-dl-q em {
+  float: right;
+}
+.hd-dl-q .hd-us-name {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.hd-dl-q .hd-dl-vip {
+  height: 20px;
+  margin-top: 9px;
+  position: relative;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.hd-dl-q .hd-dl-vip:hover .hd-dl-vip-box {
+  display: block;
+}
+.hd-dl-q .hd-dl-vip .hd-dl-vip-num {
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+}
+.hd-dl-q .hd-dl-vip .hd-dl-vip-num i {
+  color: #d4b488;
+  border: 1px solid #d4b488;
+  font-size: 12px;
+  border-radius: 11px;
+  padding: 0px 9px;
+}
+.hd-dl-q .hd-dl-vip .hd-dl-vip-num:hover {
+  color: #d4b488;
+}
+.hd-dl-q .hd-dl-vip.svip em.hd-dl-vip-num i {
+  color: #e85103;
+  border: 1px solid #e85103;
+}
+.hd-dl-vip-box {
+  position: absolute;
+  left: 50%;
+  top: 19px;
+  z-index: 999;
+  width: 202px;
+  display: none;
+  height: 123px;
+  margin-left: -102px;
+}
+.hd-dl-vip-txt {
+  width: 160px;
+  height: 70px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px -1px #aaa;
+  padding: 10px 20px 30px 20px;
+  border: 1px solid #f2f2f2;
+}
+.hd-dl-vip-txt a {
+  width: 100%;
+  text-align: center;
+  float: left;
+  color: #666;
+}
+.hd-dl-vip-txt p {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  line-height: 33px;
+  color: #666;
+  text-align: center;
+  float: left;
+}
+.hd-dl-jt {
+  width: 21px;
+  position: relative;
+  height: 11px;
+  display: block;
+  background: url(/platform/2018/img/dl-jt.png) no-repeat;
+  left: 50%;
+  margin-left: -10px;
+  top: 3px;
+  z-index: 99;
+}
+.hd-dl-vip-txt p i {
+  color: #fe5600;
+}
+.hd-dl-msg {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  float: right;
+  padding-left: 6px;
+}
+.hd-dl-msg a.hd-dl-msg-num b {
+  color: #fe5600;
+  font-weight: normal;
+}
+.hd-dl-msg a.hd-dl-msg-num {
+  width: 54px;
+  line-height: 40px;
+  height: 40px;
+  display: block;
+}
+.hd-dl-msg:hover .hd-dl-msg-box {
+  display: block;
+}
+.hd-dl-msg-box {
+  width: 340px;
+  position: absolute;
+  left: 50%;
+  top: 28px;
+  z-index: 99;
+  margin-left: -170px;
+  display: none;
+}
+.hd-dl-msg-list {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 9px -1px #aaa;
+  padding: 10px 20px;
+}
+.hd-dl-msg-list li {
+  height: 108px;
+  width: 276px;
+  background: #f9f9f9;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+.hd-myMessage {
+  width: 280px;
+  height: 62px;
+  margin: 0 auto;
+  padding-top: 12px;
+  overflow: hidden;
+}
+.hd-myMessage img {
+  float: left;
+  height: 62px;
+  width: 62px;
+  margin-right: 10px;
+}
+.hd-myMessage span {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  width: 208px;
+}
+.hd-myMessage span b {
+  float: left;
+}
+.hd-myMessage span i {
+  float: right;
+  color: #888;
+  padding-right: 6px;
+}
+.hd-myMessage p {
+  float: left;
+  width: 208px;
+  line-height: 20px;
+  color: #666;
+}
+.hd-myMessage-xq {
+  text-align: right;
+  width: 100%;
+  line-height: 28px;
+}
+.hd-myMessage-xq a {
+  color: #fe5600;
+}
+.hd-myMessage-xq a:hover {
+  text-decoration: underline;
+  color: #fe5600;
+}
+.hd-myMessage-all {
+  width: 100%;
+  text-align: center;
+}
+.hd-myMessage-all a {
+  color: #888;
+}
+.hd-myMessage-all a:hover {
+  color: #333;
+}
+.hd-game-box-tit {
+  height: 33px;
+  width: 100%;
+  position: relative;
+}
+.hd-game-box-tit .hd-search {
+  top: 0px;
+}
+.hd-game-box-tit .hd-game-box-tit-h3 {
+  height: 16px;
+  border-left: 3px solid #fde701;
+  font-size: 16px;
+  color: #333;
+  line-height: 14px;
+  display: block;
+  margin-top: 5px;
+  text-indent: 10px;
+  font-weight: bold;
+}
+.hd-info_right {
+  width: 275px;
+  padding: 20px;
+  float: right;
+}
+.hd-hot_list {
+  width: 100%;
+  float: left;
+  padding-bottom: 30px;
+}
+.hd-hot_list li {
+  height: 60px;
+  border-bottom: 1px solid #eeeeee;
+  float: left;
+  width: 100%;
+  padding: 15px 0px;
+}
+.hd-h-g-img img {
+  height: 60px;
+  -webkit-transition: all 0.3s linear;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  width: 60px;
+}
+.hd-h-g-img:hover img {
+  -webkit-box-shadow: 0 3px 5px #e3e3e3;
+  box-shadow: 0 3px 5px #e3e3e3;
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+}
+.hd-h-g-txt {
+  width: 130px;
+  height: 60px;
+  margin-left: 10px;
+}
+.hd-h-g-txt span {
+  color: #383838;
+  font-size: 14px;
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  overflow: hidden;
+  height: 24px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.hd-h-g-txt p {
+  color: #888;
+  font-size: 12px;
+  float: left;
+  width: 100%;
+  height: 18px;
+  line-height: 18px;
+}
+.hd-hot_list .hd-glink {
+  width: 68px;
+  height: 24px;
+  border: 1px solid #666;
+  text-align: center;
+  line-height: 24px;
+  color: #333;
+  font-size: 12px;
+  display: block;
+  float: right;
+  border-radius: 15px;
+  margin-top: 17px;
+  overflow: hidden;
+}
+.hd-hot_list .hd-glink:hover {
+  background: #fde701;
+  border: 1px solid #fde701;
+}
+.hd-twapp-btn {
+  width: 162px;
+  height: 25px;
+  float: left;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+.hd-twapp-btn i {
+  float: left;
+  height: 25px;
+  width: 25px;
+  background: url(/platform/2018/img/app-download2.png) no-repeat;
+}
+.hd-twapp-btn span {
+  color: #ffe400;
+  font-size: 14px;
+  float: left;
+  margin-left: 7px;
+  border: 1px solid #69611c;
+  width: 128px;
+  height: 23px;
+  line-height: 22px;
+  border-radius: 3px;
+  text-indent: 10px;
+  background: url(/platform/2018/img/app-download2.png) 97px -42px no-repeat;
+}
+.hd-twapp-btn:hover span {
+  border: 1px solid #d2bd07;
+}
+.ss-xl,
+.ss-xl li {
+  width: 100%;
+  float: left;
+}
+.ss-xl {
+  padding-top: 4px;
+}
+.ss-xl li.hd-on {
+  background: #eee;
+}
+.ss-xl li .ss-xl-on {
+  display: none;
+  height: 48px;
+  padding: 10px 20px;
+}
+.ss-xl-on-a {
+  float: left;
+  height: 48px;
+  margin-left: 10px;
+  width: 110px;
+}
+.ss-xl-on-a .ss-name {
+  color: #333;
+  font-size: 13px;
+  padding-bottom: 7px;
+  float: left;
+  width: 100%;
+}
+.ss-xl-on-a .ss-jrge {
+  border: 1px solid #c0c0c0;
+  font-size: 12px;
+  color: #666;
+  padding: 1px 10px;
+  border-radius: 25px;
+  float: left;
+}
+.ss-xl-on-a .ss-jrge:hover {
+  background: #fde701;
+  border: 1px solid #fde701;
+}
+.ss-xl li .ss-xl-on img {
+  float: left;
+  height: 48px;
+  width: 48px;
+  border-radius: 6px;
+}
+.ss-xl li .ss-xl-mr {
+  height: 40px;
+  line-height: 40px;
+  color: #888;
+  font-size: 12px;
+  text-indent: 20px;
+}
+.ss-xl li.on .ss-xl-on {
+  display: block;
+}
+.ss-xl li.on .ss-xl-mr {
+  display: none;
+}
+.hd-search {
+  width: 210px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: url(/platform/2018/img/search-bg.jpg) no-repeat;
+  z-index: 99;
+}
+.hd-search .search-txt {
+  float: left;
+  height: 30px;
+  border: 0px;
+  width: 172px;
+  text-indent: 14px;
+  color: #333;
+  font-size: 14px;
+  line-height: 31px;
+  margin: 1px;
+}
+.hd-search .search-submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 33px;
+  width: 33px;
+  background: #fde701 url(/platform/2018/img/search.png) center no-repeat;
+  border: 0;
+  cursor: pointer;
+}
+.hd-search .search-submit:hover {
+  background: #f4cf00 url(/platform/2018/img/search.png) center no-repeat;
+}
+.search-rem {
+  background: #fff;
+  width: 208px;
+  height: 232px;
+  position: absolute;
+  top: 53px;
+  right: 0;
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  display: none;
+}
