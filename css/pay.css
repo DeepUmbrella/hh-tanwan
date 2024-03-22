@@ -1,4 +1,7 @@
 @charset "utf-8";
+.d-none {
+  display: none !important;
+}
 /* CSS Document */
 /* font */
 .f-tahoma {

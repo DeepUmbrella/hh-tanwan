@@ -546,7 +546,7 @@
               <p class="pay-zh-xz" id="d_server_select">
                 <span>请选择服务器</span>
               </p>
-              <div class="select-list pay-zh-error" id="d_select_roles">
+              <div class="select-list" id="d_select_roles">
                 <span class="span_aa">角色不存在，请重新选择区服</span>
                 <ul style="display: none"></ul>
               </div>
@@ -654,11 +654,26 @@
                 </div>
                 <div class="gs-sel-tab-bar picScroll-left">
                   <a
-                    class="prev-btn prev opacity-style"
+                    class="prev-btn prev opacity-style prevStop"
                     style="display: inline"
                   ></a>
                   <div class="gs-tab-list bd">
-                    <ul class="picList"></ul>
+                    <div
+                      class="tempWrap"
+                      style="overflow: hidden; position: relative; width: 468px"
+                    >
+                      <ul
+                        class="picList"
+                        style="
+                          width: 780px;
+                          left: 0px;
+                          position: relative;
+                          overflow: hidden;
+                          padding: 0px;
+                          margin: 0px;
+                        "
+                      ></ul>
+                    </div>
                     <div class="clear"></div>
                   </div>
                   <a
@@ -674,19 +689,27 @@
                   class="alert_list server_cnt_tab"
                   style="display: none"
                 ></div>
-                <!--
-                      <div id="cnt_1">
-                          <div class="gs-sel-sub">
-                              <ul class="sub-list-main" >
 
-                              </ul>
-                          </div>
-                          <div id="server_content">
-
-                          </div>
-
-                      </div>
-                      -->
+                <div
+                  class="server_cnt_tab"
+                  id="server_cnt_tab_9001"
+                  style="display: block"
+                >
+                  <div class="gs-sel-sub">
+                    <ul class="sub-list-main">
+                      <li><a class="on">test</a></li>
+                    </ul>
+                  </div>
+                  <div class="server_content">
+                    <div
+                      id="server_cnt_9001_1"
+                      class="alert_list server_list"
+                      style="display: none"
+                    >
+                      <a href="javascript:;" target="_self">test</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <!--------弹出游戏服务器列表end---------->
